@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+input[type="number"] {
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f9aa33;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffb300;
+}
+
+.coin-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.coin {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: gold;
+  border-radius: 50%;
+  animation: spin 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: #000;
+  box-shadow: 0 0 10px #ffeb3b;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(720deg);
+  }
+}
+
+.table-container, .multi-container {
+  margin-top: 30px;
+  background-color: #1e2a38;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+.progress-bar {
+  height: 20px;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  border-radius: 5px;
+  animation: grow 1s ease-in-out;
+}
+
+@keyframes grow {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.highlight-box {
+  background-color: #2e7d32;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #4caf50;
+}
