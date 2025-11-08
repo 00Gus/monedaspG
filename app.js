@@ -1,9 +1,9 @@
 /* ======== Configuración ======== */
 const PERSONAS = [
-  { nombre: "Leo",  emoji: "🦊" },
-  { nombre: "Siri", emoji: "🤖" },
-  { nombre: "Pily", emoji: "🦉" },
-  { nombre: "Gus",  emoji: "🧢" },
+  { nombre: "Siri",  emoji: "🦊" },
+  { nombre: "Gus", emoji: "🤖" },
+  { nombre: "Leo", emoji: "🧢" },
+  { nombre: "Pily",  emoji: "🦉" },
   { nombre: "rommie NV", emoji: "🏠" },
 ];
 // Lunes base: 10 de noviembre de 2025 (inicio de rotación)
@@ -311,3 +311,4 @@ function init(){
   renderProximas();
 }
 init();
+
