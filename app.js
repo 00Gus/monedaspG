@@ -1,10 +1,10 @@
 /* ======== Configuración ======== */
 const PERSONAS = [
-  { nombre: "Siri",  emoji: "🦊" },
-  { nombre: "Gus", emoji: "🤖" },
-  { nombre: "Leo", emoji: "🧢" },
-  { nombre: "Pily",  emoji: "🦉" },
   { nombre: "rommie NV", emoji: "🏠" },
+  { nombre: "Ciri",      emoji: "🤖" },
+  { nombre: "Gus",       emoji: "🧢" },
+  { nombre: "Leo",       emoji: "🦊" },
+  { nombre: "Pily",      emoji: "🦉" },
 ];
 // Lunes base: 10 de noviembre de 2025 (inicio de rotación)
 const BASE_LUNES_ISO = "2025-11-10"; // YYYY-MM-DD
@@ -311,4 +311,5 @@ function init(){
   renderProximas();
 }
 init();
+
 
