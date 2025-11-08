@@ -1,10 +1,10 @@
 /* ======== Configuración ======== */
 const PERSONAS = [
-  { nombre: "rommie NV", emoji: "🏠" },
-  { nombre: "Ciri",      emoji: "🤖" },
-  { nombre: "Gus",       emoji: "🧢" },
-  { nombre: "Leo",       emoji: "🦊" },
-  { nombre: "Pily",      emoji: "🦉" },
+  { nombre: "Siri", emoji: "🤖" },   // Semana 1: inicia lunes 10 nov 2025
+  { nombre: "Gus",  emoji: "🧢" },   // Semana 2
+  { nombre: "Leo",  emoji: "🦊" },   // Semana 3
+  { nombre: "Pily", emoji: "🦉" },   // Semana 4
+  { nombre: "rommie NV", emoji: "🏠" } // Semana 5
 ];
 // Lunes base: 10 de noviembre de 2025 (inicio de rotación)
 const BASE_LUNES_ISO = "2025-11-10"; // YYYY-MM-DD
@@ -311,5 +311,6 @@ function init(){
   renderProximas();
 }
 init();
+
 
 
